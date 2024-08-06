@@ -1,0 +1,13 @@
+{
+  "name": "financial-ghoul",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "client/*",
+    "server/*"
+  ],
+  "scripts": {
+    "web:dev": "bun run --cwd client/web dev",
+    "api:dev": "bun run --cwd server/api dev"
+  }
+}
